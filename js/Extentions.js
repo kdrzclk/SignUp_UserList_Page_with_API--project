@@ -35,3 +35,13 @@ function DecryptStringAES(text) {
   } else {
   }
 }
+
+const showLoading = () => {
+  loading.style.display = "block";
+};
+
+const removeLoading = () => {
+  setTimeout(() => {
+    loading.style.siplay = "none";
+  }, 1000);
+};
