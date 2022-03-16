@@ -18,6 +18,40 @@
     <script src="js/Extentions.js"></script>
     <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .pageHeader {
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        width: 100%;
+        height: 50px;
+        background-color: #3464e0;
+        font-family: Roboto-Bold;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-bottom: 15px; */
+      }
+
+      td {
+        text-align: center;
+      }
+
+      #loading {
+        position: absolute;
+        top: 40%;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 99999999;
+      }
+    </style>
   </head>
   <body>
     <div class="pageHeader" style="margin-bottom: 0px">USER LIST</div>
